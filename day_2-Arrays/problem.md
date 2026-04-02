@@ -7,7 +7,7 @@ You cannot use max(), sort(), or any built-in shortcut. Pure logic only.
 ### Example:
 
 **Input:**
-```
+```py
 numbers = [3, 7, 1, 9, 4, 6]
 ```
 
@@ -28,14 +28,14 @@ You already know how to track the largest number as you walk through a list. Now
 As I already know, how to find largest number for list or array. I'll use the same approch to track second largest number. Like; I have list of nunbers as array. 
 
 **E.x,**
-```
+```py
 numbers = [3, 7, 1, 9, 4, 6]
 ```
 I'll Initialize a variable as `max_num = 0`, and `second_large = 0`.
 Then run a for loop on `numbers`. Inside for loop check current number, if current number is `>` `max_num` then `max_num` is currnt number.And before initilaizing **current largest number to `max_num`**, first add it to `second_large` then current number = `max_num`. Else, the current number is `< max_num` then `max_num` and `second_large` remain as it is.
 
 ## Attempt 1
-```
+```py
 numbers = [3, 7, 1, 9, 4, 10, 1]
 
 max_num = numbers[0]
@@ -51,7 +51,7 @@ print(f"Largesr number is: {max_num}, \nSecond largest number is: {second_large}
 ---
 # Improvement form GPT:
 Run your code mentally on this list:
-```
+```py
 numbers = [3, 7, 1, 9, 4, 6]
 ```
 
@@ -71,15 +71,15 @@ Think about what the second largest number really means. It is not just **"the n
 I fixed the initialization problem.
 
 **Example**:
-```
+```py
 max_num = numbers[0]
 second_large = numbers[0]
 ```
 But with a condition where it handels the case where `second_large < max_num` but last `second_large > current secodn large`.
 
 ## Attempt 2
-```
-numbers = [-9, 9, 3, 1, 8, 9]
+```py
+numbers = [-9, 9, 3, 1, 7, 9]
 
 max_num = numbers[0]
 second_large = numbers[0]
@@ -93,5 +93,11 @@ for i in numbers[1:]:
 
 print(f"Largest: {max_num}")
 print(f"Second largest: {second_large}")
+```
+
+**Output**
+```bash
+Largest: 9
+Second largest: 7
 ```
 ---

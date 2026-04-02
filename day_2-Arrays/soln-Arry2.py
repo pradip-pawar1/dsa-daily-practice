@@ -1,4 +1,4 @@
-numbers = [-9, 9, 3, 1, 8, 9]
+numbers = [-9, 9, 3, 1, 7, 9]
 
 max_num = numbers[0]
 second_large = numbers[0]

@@ -4,12 +4,12 @@ Print True if found, False if not.
 
 ### Example:
 **Input:**
-```
+```py
 numbers = [4, 7, 2, 9, 1]
 target = 7
 ```
 **Output:**
-```
+```bash
 True
 ```
 
@@ -25,7 +25,7 @@ Then I'll compare current iterable `i` with target value as `if i == target`. If
 
 ---
 # Attempt 1
-```
+```py
 numbers = [4, 7, 2, 9, 1]
 target = 7
 
@@ -38,4 +38,10 @@ for i in numbers:
 
 print(result)
 ```
+
+**Output**
+```bash
+True
+```
+---
 > Logic is to the point and the Method is known as **Linear search**.

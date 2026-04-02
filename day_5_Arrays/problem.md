@@ -7,13 +7,13 @@ You cannot use `.count()` or any built-in counting function.
 
 ### Example:
 **Input:**
-```
+```py
 numbers = [1, 3, 5, 3, 7, 3, 9]
 target = 3
 ```
 
 **Output:**
-```
+```bash
 3
 ```
 
@@ -28,7 +28,7 @@ I'll iterate a list through for loop, and create a variable `count = 0` and each
 
 ---
 # Attemp 1
-```
+```py
 numbers = [1, 3, 5, 3, 7, 3, 9]
 target = 3
 
@@ -42,7 +42,7 @@ print(count)
 ```
 
 **Output:**
-```
+```bash
 3
 ```
 ---

@@ -3,6 +3,6 @@ total = 0
 
 for i in numbers:
     if i%2 == 0:
-        sum += i
+        total += i
     
 print(total)

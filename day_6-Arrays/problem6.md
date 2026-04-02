@@ -27,15 +27,21 @@ You already know how to walk through a list and check each element. Now ask your
 To iterate the list i will use `for` loop. I will make a variable as `sum = 0` and inside for loop i'll add a condition to check, weather the curret number `i` is even or not? If it's odd then let it go but if it's even then add current number `i` to `sum` as `sum += i`. 
 
 ## Attempt 1
-```
+```py
 numbers = [1, 2, 3, 4, 5, 6]
 total = 0
 
 for i in numbers:
     if i%2 == 0:
-        sum += i
+        total += i
     
 print(total)
 ```
+
+**Output**
+```bash
+12
+```
+
 ---
 > Solved in first attempt within 5 Min.

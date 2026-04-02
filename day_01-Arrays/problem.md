@@ -5,12 +5,12 @@ You cannot use any built-in function like max(). You have to find it manually us
 
 ## Example:
 Input:
-```
+```py
 numbers = [3, 7, 1, 9, 4, 6]
 ```
 
 Output:
-```
+```bash
 9
 ```
 
@@ -25,14 +25,14 @@ That one question contains the entire logic of this problem.
 # My approch
 I have list of munbers as array.
 E.x, 
-```
+```py
 numbers = [3, 7, 1, 9, 4, 6]
 ```
 I'll Initialize a variable as `max_num = 0`.
 Then run a for loop on `numbers`. Inside for loop check current number, if current number is `>` `max_num` then `max_num` is currnt number. Else, the current number is `<` `max_num` then `max_num` remain as it is.
 
 ## Attempt 1
-```
+```py
 numbers = [3, 7, 10, 9, 4, 6]
 
 max_num = 0
@@ -48,7 +48,7 @@ for i in numbers:
 You initialized `max_num = 0`.
 
 Think about this carefully. What happens if the input list is this:
-```
+```py
 numbers = [-5, -3, -8, -1]
 ```
 Walk through your code mentally. What will max_num be at the end? Is that correct? Now ask yourself: why did you choose 0 specifically? 
@@ -66,7 +66,7 @@ Now, I am assuming that the first occurance of the list or frst element of the l
 Then by traversing throught `for loop` I will check every element and change when the bigger number occurs.
 
 ## Attempt 2
-```
+```py
 numbers = [3, 7, 10, 9, 4, 6]
 
 max_num = numbers[0]
@@ -77,5 +77,10 @@ for i in numbers:
         max_num = i
 
 print(f"Gratest number is: {max_num}")
+```
+
+**Output**
+```bash
+Gratest number is: 0
 ```
 ---

@@ -6,11 +6,11 @@ You are given a list of numbers. Your task is to reverse the list without using 
 ### Example:
 
 **Input:**
-```
+```py
 numbers = [1, 2, 3, 4, 5]
 ```
 **Output:**
-```
+```bash
 [5, 4, 3, 2, 1]
 ```
 
@@ -33,7 +33,7 @@ Then inside loop I'll create a `temp` variable to store current number for left 
 Then increase the value of `left` and `right` by 1.
 
 # Attempt 1
-```
+```py
 numbers = [1, 2, 3, 4, 5]
 
 left = 0
@@ -48,6 +48,11 @@ while left < right:
     right -=1
 
 print(numbers)
+```
+
+**Output**
+```bash
+[5, 4, 3, 2, 1]
 ```
 ---
 
