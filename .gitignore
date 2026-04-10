@@ -33,7 +33,6 @@ ipython_config.py
 
 # Environments
 .env
-.envrc
 .venv
 env/
 venv/
@@ -42,3 +41,6 @@ env.bak/
 venv.bak/
 
 .vscode/
+
+# Testing code files 
+test.py
