@@ -21,7 +21,7 @@ This repository serves as:
 | Topic | Easy | Medium | Hard | Total |
 |-------|------|--------|------|-------|
 | Arrays | 🟢 4 | 🟡 0 | 🔴 0 | 10 |
-| Strings | 🟢 4 | 🟡 0 | 🔴 0 | 4 |
+| Strings | 🟢 5 | 🟡 0 | 🔴 0 | 5 |
 | Linked Lists | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Trees | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
@@ -30,9 +30,9 @@ This repository serves as:
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Dynamic Programming | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 
-**Total Problems Solved:** 14
+**Total Problems Solved:** 15
 
-**Current Streak:** 14 days 🔥
+**Current Streak:** 15 days 🔥
 
 **Last Updated:** April 2026
 
@@ -102,7 +102,7 @@ Locic - 2
 ## 🎓 Key Concepts Learned
 
 ### Arrays
-- [ ✔️ ] Two Pointer Technique
+- [ ] Two Pointer Technique
 - [ ] Sliding Window
 - [ ] Kadane's Algorithm
 - [ ] Prefix Sum
