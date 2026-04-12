@@ -1,7 +1,7 @@
 # The Problem Day 14
 > Topic: Strings\
 > Level: Beginner+\
-> Custom (GPT)\
+> Source : Custom (GPT)\
 > Date: 2026-04-10
 
 

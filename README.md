@@ -22,6 +22,7 @@ This repository serves as:
 |-------|------|--------|------|-------|
 | Arrays | 🟢 4 | 🟡 0 | 🔴 0 | 10 |
 | Strings | 🟢 5 | 🟡 0 | 🔴 0 | 5 |
+| Hashing | 🟢 1 | 🟡 0 | 🔴 0 | 1 |
 | Linked Lists | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Trees | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
@@ -30,9 +31,9 @@ This repository serves as:
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Dynamic Programming | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 
-**Total Problems Solved:** 15
+**Total Problems Solved:** 16
 
-**Current Streak:** 15 days 🔥
+**Current Streak:** 16 days 🔥
 
 **Last Updated:** April 2026
 
@@ -146,28 +147,13 @@ Locic - 2
 
 ---
 
-## 🛠️ Tools & Resources
+<!-- ## 🛠️ Tools & Resources
 
 ### Practice Platforms
 - [LeetCode](https://leetcode.com) - Primary problem source
 - [HackerRank](https://hackerrank.com) - Additional practice
 - [GeeksforGeeks](https://geeksforgeeks.org) - Concept learning
----
-
-
-
-## 🏆 Milestones
-
-- [ ] Solve 50 problems
-- [ ] Solve 100 problems
-- [ ] 30-day streak
-- [ ] Solve first hard problem
-- [ ] Implement all major data structures from scratch
-- [ ] Master dynamic programming basics
-- [ ] Complete one full topic (all difficulty levels)
-- [ ] Master DSA and Logic building
-
----
+--- -->
 
 ## 🔗 Related Projects
 

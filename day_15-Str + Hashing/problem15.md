@@ -1,6 +1,8 @@
 # The Problem - Day 15
 > Topic: Strings + Hashing\
 > Level: Beginner+
+> > Source : Custom (GPT)\
+> Date: 2026-04-11
 
 
 You are given two strings. Your task is to check whether the **two strings are anagrams of each other or not**.
