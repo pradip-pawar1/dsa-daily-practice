@@ -29,7 +29,7 @@ This repository serves as:
 
 **Total Problems Solved:** 18
 
-**Current Streak:** 0 days 🔥
+**Current Streak:** 1 days 🔥
 
 **Last Updated:** April 2026
 
