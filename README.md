@@ -22,18 +22,14 @@ This repository serves as:
 |-------|------|--------|------|-------|
 | Arrays | 🟢 4 | 🟡 0 | 🔴 0 | 10 |
 | Strings | 🟢 5 | 🟡 0 | 🔴 0 | 5 |
-| Hashing | 🟢 1 | 🟡 0 | 🔴 0 | 1 |
-| Linked Lists | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
+| Hashing | 🟢 4 | 🟡 0 | 🔴 0 | 4 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
-| Trees | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
-| Graphs | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
-| Dynamic Programming | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 
-**Total Problems Solved:** 16
+**Total Problems Solved:** 18
 
-**Current Streak:** 16 days 🔥
+**Current Streak:** 0 days 🔥
 
 **Last Updated:** April 2026
 
