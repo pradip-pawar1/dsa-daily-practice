@@ -14,4 +14,3 @@ for i in numbers:
     seen[i] = True
 
 print(result)
-print(seen)
