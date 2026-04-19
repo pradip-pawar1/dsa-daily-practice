@@ -44,3 +44,7 @@ venv.bak/
 
 # Testing code files 
 test.py
+
+
+# Replacement or extra questions
+replacement/
