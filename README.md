@@ -20,16 +20,16 @@ This repository serves as:
 
 | Topic | Easy | Medium | Hard | Total |
 |-------|------|--------|------|-------|
-| Arrays | 🟢 10 | 🟡 2 | 🔴 0 | 12 |
+| Arrays | 🟢 10 | 🟡 3 | 🔴 0 | 13 |
 | Strings | 🟢 5 | 🟡 0 | 🔴 0 | 5 |
-| Hashing | 🟢 4 | 🟡 2 | 🔴 0 | 6 |
+| Hashing | 🟢 4 | 🟡 3 | 🔴 0 | 7 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 
-**Total Problems Solved:** 20
+**Total Problems Solved:** 21
 
-**Current Streak:** 3 days 🔥
+**Current Streak:** 4 days 🔥
 
 **Last Updated:** April 2026
 
