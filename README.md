@@ -21,15 +21,15 @@ This repository serves as:
 | Topic | Easy | Medium | Hard | Total |
 |-------|------|--------|------|-------|
 | Arrays | 🟢 10 | 🟡 3 | 🔴 0 | 13 |
-| Strings | 🟢 5 | 🟡 0 | 🔴 0 | 5 |
-| Hashing | 🟢 4 | 🟡 3 | 🔴 0 | 7 |
+| Strings | 🟢 5 | 🟡 1 | 🔴 0 | 6 |
+| Hashing | 🟢 4 | 🟡 4 | 🔴 0 | 8 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 
-**Total Problems Solved:** 21
+**Total Problems Solved:** 22
 
-**Current Streak:** 4 days 🔥
+**Current Streak:** 5 days 🔥
 
 **Last Updated:** April 2026
 
