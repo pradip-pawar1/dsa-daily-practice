@@ -20,16 +20,16 @@ This repository serves as:
 
 | Topic | Easy | Medium | Hard | Total |
 |-------|------|--------|------|-------|
-| Arrays | 🟢 10 | 🟡 3 | 🔴 0 | 13 |
+| Arrays | 🟢 10 | 🟡 4 | 🔴 0 | 14 |
 | Strings | 🟢 5 | 🟡 1 | 🔴 0 | 6 |
-| Hashing | 🟢 4 | 🟡 4 | 🔴 0 | 8 |
+| Hashing | 🟢 4 | 🟡 5 | 🔴 0 | 9 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 
-**Total Problems Solved:** 22
+**Total Problems Solved:** 23
 
-**Current Streak:** 5 days 🔥
+**Current Streak:** 6 days 🔥
 
 **Last Updated:** April 2026
 
@@ -44,19 +44,13 @@ This repository serves as:
 - Build problem-solving intuition
 
 ### Phase 2: Core Data Structures
-**Focus:** Linked Lists, Stacks, Queues, Hash Tables
+**Focus:** Stacks, Queues, Hash Tables
 - Implement data structures from scratch
 - Understand when to use which structure
 - Practice manipulation and traversal
 
-### Phase 3: Advanced Structures
-**Focus:** Trees, Graphs, Heaps
-- Tree traversals (DFS, BFS)
-- Graph algorithms (shortest path, MST)
-- Priority queues and heaps
-
 ### Phase 4: Algorithms & Optimization
-**Focus:** Sorting, Searching, Dynamic Programming
+**Focus:** Sorting, Searching
 - Classic algorithms and their variants
 - Optimization techniques
 - Pattern recognition
@@ -94,53 +88,6 @@ Mistakes and improvement
 Locic - 2
 <- code ->
 ```
----
-
-## 🎓 Key Concepts Learned
-
-### Arrays
-- [ ] Two Pointer Technique
-- [ ] Sliding Window
-- [ ] Kadane's Algorithm
-- [ ] Prefix Sum
-- [ ] Binary Search on Arrays
-
-### Strings
-- [ ] String Manipulation
-- [ ] Pattern Matching
-- [ ] Palindrome Techniques
-- [ ] Anagram Detection
-
-### Linked Lists
-- [ ] Fast & Slow Pointers
-- [ ] Reversal Techniques
-- [ ] Cycle Detection
-- [ ] Merge Operations
-
-### Stacks & Queues
-- [ ] Monotonic Stack
-- [ ] Queue using Stacks
-- [ ] Next Greater Element
-- [ ] Valid Parentheses
-
-### Trees
-- [ ] DFS (Inorder, Preorder, Postorder)
-- [ ] BFS (Level Order)
-- [ ] Binary Search Trees
-- [ ] Tree Construction
-
-### Graphs
-- [ ] Graph Traversal (DFS, BFS)
-- [ ] Shortest Path (Dijkstra, Bellman-Ford)
-- [ ] Minimum Spanning Tree
-- [ ] Topological Sort
-
-### Dynamic Programming
-- [ ] Memoization
-- [ ] Tabulation
-- [ ] State Space Reduction
-- [ ] Common DP Patterns
-
 ---
 
 <!-- ## 🛠️ Tools & Resources
