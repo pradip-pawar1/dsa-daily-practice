@@ -20,16 +20,16 @@ This repository serves as:
 
 | Topic | Easy | Medium | Hard | Total |
 |-------|------|--------|------|-------|
-| Arrays | 🟢 10 | 🟡 4 | 🔴 0 | 14 |
+| Arrays | 🟢 10 | 🟡 5 | 🔴 0 | 15 |
 | Strings | 🟢 5 | 🟡 1 | 🔴 0 | 6 |
 | Hashing | 🟢 4 | 🟡 5 | 🔴 0 | 9 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 
-**Total Problems Solved:** 23
+**Total Problems Solved:** 24
 
-**Current Streak:** 6 days 🔥
+**Current Streak:** 7 days 🔥
 
 **Last Updated:** April 2026
 
@@ -157,12 +157,12 @@ This repository is open source and available under the [MIT License](LICENSE).
 I commit to:
 - Solve at least one problem daily
 - Understand the 'why', not just the 'what'
-- Document learnings for future reference
+- Document learnings for future
 - Share knowledge with others on the same journey
 
 **Start Date:** 2026 March 25
 
-**Goal:** Master DSA fundamentals in 6 months through consistent daily practice
+**Goal:** Master DSA fundamentals through consistent daily practice
 
 ---
 
