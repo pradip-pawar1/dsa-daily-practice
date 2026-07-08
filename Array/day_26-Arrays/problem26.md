@@ -4,7 +4,7 @@
 > Name: Remove Duplicates from Sorted Array\
 > Level: Easy\
 > Source: Claude\
-> Date: YYYY-MM-DD
+> Date: 2026-07-08
 
 
 ## The Problem
@@ -40,13 +40,15 @@ You have two pointers moving in the same direction but at different speeds. One 
 "What condition tells me that the current element is different from the last unique element I already recorded?"
 
 # My approach
-> Technique: Two pointer technique in same direction\
-> Time complexity: O(n)\
-> Space complexity: O(1)
 
 There is strict rule of using **Two pointer technique**, and I'll use **Two pointer technique in same direction**. Because it is the best for removing duplicates. It's _**space complexity is O(1)**_, and _**time complexity is O(n)**_. 
 
 ## Logic - 1
+
+> Technique: Two pointer technique in same direction\
+> Time complexity: O(n)\
+> Space complexity: O(1)
+
 ```py
 def remove_duplicate(arr):
     slow = 0 

@@ -1,6 +1,6 @@
 # 📚 DSA Daily Practice
 
-A systematic journey through Data Structures and Algorithms—one problem at a time. This repository documents my daily practice as I build strong problem-solving foundations before diving deeper into AI/ML.
+A systematic journey through Data Structures and Algorithms one problem at a time. This repository documents my daily practice as I build strong problem-solving foundations before diving deeper into AI/ML.
 
 **Philosophy:** Consistent practice over intensity. Small daily progress compounds into mastery.
 
@@ -14,20 +14,19 @@ This repository serves as:
 - **Progress tracker** - Visualize growth over time
 - **Reference library** - Quick review of patterns and approaches
 
----
 
 ## 📊 Progress Tracker
 
 | Topic | Easy | Medium | Hard | Total |
 |-------|------|--------|------|-------|
-| Arrays | 🟢 10 | 🟡 6 | 🔴 0 | 16 |
+| Arrays | 🟢 10 | 🟡 7 | 🔴 0 | 17 |
 | Strings | 🟢 5 | 🟡 2 | 🔴 0 | 7 |
 | Hashing | 🟢 4 | 🟡 5 | 🔴 0 | 9 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 
-**Total Problems Solved:** 26
+**Total Problems Solved:** 27
 
 **Current Streak:** 1 days 🔥
 
@@ -38,7 +37,7 @@ This repository serves as:
 ## 🚀 Learning Approach
 
 ### Phase 1: Foundations (Current)
-**Focus:** Arrays, Strings, Basic Algorithms
+**Focus:** Arrays, Strings, Hashing
 - Master time and space complexity analysis
 - Understand common patterns (two pointers, sliding window)
 - Build problem-solving intuition
@@ -49,7 +48,7 @@ This repository serves as:
 - Understand when to use which structure
 - Practice manipulation and traversal
 
-### Phase 4: Algorithms & Optimization
+### Phase 3: Algorithms & Optimization
 **Focus:** Sorting, Searching
 - Classic algorithms and their variants
 - Optimization techniques
@@ -64,12 +63,16 @@ Each problem follows this structure:
 ```txt
 """
 Problem: [Problem Name]
+Name: Question name
 Difficulty: Easy/Medium/Hard
-Source: LeetCode/HackerRank/Custom (GPT)
+Source: LeetCode/HackerRank/Claude
 Date Solved: YYYY-MM-DD
 
-Description:
+The problem:
 [Clear problem statement]
+
+Key Words Explained:
+[explain terms used]
 
 Example:
 Input: [example input]
@@ -78,7 +81,7 @@ Output: [example output]
 What to think:
 [Thinking process to follow]
 
-Approach:
+My solution approach:
 [Explanation of the solution approach]
 
 Logic - 1
@@ -107,24 +110,6 @@ This DSA practice complements my other learning repositories:
 
 ---
 
-## 📊 Complexity Cheat Sheet
-
-### Time Complexity
-| Complexity | Name | Example |
-|------------|------|---------|
-| O(1) | Constant | Array access |
-| O(log n) | Logarithmic | Binary search |
-| O(n) | Linear | Linear search |
-| O(n log n) | Linearithmic | Merge sort |
-| O(n²) | Quadratic | Nested loops |
-| O(2ⁿ) | Exponential | Recursive fibonacci |
-| O(n!) | Factorial | Permutations |
-
-### Space Complexity
-- **In-place:** O(1) extra space
-- **Recursive:** O(h) where h = recursion depth
-- **Hash Map:** O(n) for n elements
----
 
 ## 📬 Connect
 
@@ -134,31 +119,26 @@ This DSA practice complements my other learning repositories:
 - **LinkedIn:** [@pradip-pawar1](https://www.linkedin.com/in/pradip-pawar1/)
 - **Email:** pradipp8806@gmail.com
 
----
 
 ## 📄 License
 
 This repository is open source and available under the [MIT License](LICENSE).
 
----
 
 ## 🙏 Acknowledgments
 
+- Special thanks to **[Coding With Sagar](https://www.youtube.com/@codingwithsagarcw)** for the free DSA course
 - Thanks to the coding community for sharing knowledge
-- Special thanks to all educators creating free DSA content
-- Inspired by developers who share their learning journeys publicly
 
----
 
 ## 💪 Personal Commitment
 
-> "The expert in anything was once a beginner. The secret is daily practice."
+> "The expert in anything, was once a beginner. The secret is daily practice."
 
 I commit to:
 - Solve at least one problem daily
 - Understand the 'why', not just the 'what'
-- Document learnings for future
-- Share knowledge with others on the same journey
+- Document the learnings and learning journey
 
 **Start Date:** 2026 March 25
 
