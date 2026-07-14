@@ -19,14 +19,14 @@ This repository serves as:
 
 | Topic | Easy | Medium | Hard | Total |
 |-------|------|--------|------|-------|
-| Arrays | 🟢 10 | 🟡 7 | 🔴 0 | 17 |
+| Arrays | 🟢 10 | 🟡 9 | 🔴 0 | 19 |
 | Strings | 🟢 5 | 🟡 2 | 🔴 0 | 7 |
 | Hashing | 🟢 4 | 🟡 5 | 🔴 0 | 9 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 
-**Total Problems Solved:** 27
+**Total Problems Solved:** 35
 
 **Current Streak:** 1 days 🔥
 
