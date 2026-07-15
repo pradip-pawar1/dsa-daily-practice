@@ -6,6 +6,25 @@ A systematic journey through Data Structures and Algorithms one problem at a tim
 
 ---
 
+## 📊 Progress Tracker
+
+| Topic | Easy | Medium | Hard | Total |
+|-------|------|--------|------|-------|
+| Arrays | 🟢10 | 🟡 10 | 🔴 0 | 20 |
+| Strings | 🟢 5 | 🟡 2 | 🔴 0 | 7 |
+| Hashing | 🟢 4 | 🟡 5 | 🔴 0 | 9 |
+| Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
+| Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
+| Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
+| Total | 🟢19 | 🟡17 | 🔴0 | 36 |
+
+**Total Problems Solved:** 36
+
+**Current Streak:** 2 days 🔥
+
+**Last Updated:** Mid July 2026
+
+
 ## 🎯 Purpose
 
 This repository serves as:
@@ -13,26 +32,6 @@ This repository serves as:
 - **Learning documentation** - Understand concepts, not just memorize solutions
 - **Progress tracker** - Visualize growth over time
 - **Reference library** - Quick review of patterns and approaches
-
-
-## 📊 Progress Tracker
-
-| Topic | Easy | Medium | Hard | Total |
-|-------|------|--------|------|-------|
-| Arrays | 🟢 10 | 🟡 9 | 🔴 0 | 19 |
-| Strings | 🟢 5 | 🟡 2 | 🔴 0 | 7 |
-| Hashing | 🟢 4 | 🟡 5 | 🔴 0 | 9 |
-| Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
-| Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
-| Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
-
-**Total Problems Solved:** 35
-
-**Current Streak:** 1 days 🔥
-
-**Last Updated:** July 2026
-
----
 
 ## 🚀 Learning Approach
 
@@ -60,7 +59,7 @@ This repository serves as:
 
 Each problem follows this structure:
 
-```txt
+```bash
 """
 Problem: [Problem Name]
 Name: Question name
