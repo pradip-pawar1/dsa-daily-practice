@@ -10,17 +10,17 @@ A systematic journey through Data Structures and Algorithms one problem at a tim
 
 | Topic | Easy | Medium | Hard | Total |
 |-------|------|--------|------|-------|
-| Arrays | 🟢10 | 🟡 11 | 🔴 0 | 21 |
+| Arrays | 🟢10 | 🟡 12 | 🔴 0 | 22 |
 | Strings | 🟢 5 | 🟡 2 | 🔴 0 | 7 |
 | Hashing | 🟢 4 | 🟡 5 | 🔴 0 | 9 |
 | Stacks & Queues | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
-| Total | 🟢19 | 🟡18 | 🔴0 | 37 |
+| Total | 🟢19 | 🟡19 | 🔴0 | 38 |
 
-**Total Problems Solved:** 37
+**Total Problems Solved:** 38
 
-**Current Streak:** 3 days 🔥
+**Current Streak:** 4 days 🔥
 
 **Last Updated:** Mid July 2026
 
