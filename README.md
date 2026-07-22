@@ -13,14 +13,14 @@ A systematic journey through Data Structures and Algorithms one problem at a tim
 | Arrays | 🟢10 | 🟡 12 | 🔴 0 | 22 |
 | Strings | 🟢 5 | 🟡 2 | 🔴 0 | 7 |
 | Hashing | 🟢 4 | 🟡 5 | 🔴 0 | 9 |
-| Stacks & Queues | 🟢 1 | 🟡 0 | 🔴 0 | 0 |
+| Stacks & Queues | 🟢 2 | 🟡 0 | 🔴 0 | 2 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
-| Total | 🟢20 | 🟡19 | 🔴0 | 39 |
+| Total | 🟢21 | 🟡19 | 🔴0 | 40 |
 
-**Total Problems Solved:** 39
+**Total Problems Solved:** 40
 
-**Current Streak:** 5 days 🔥
+**Current Streak:** 1 days 🔥
 
 **Last Updated:** Mid July 2026
 

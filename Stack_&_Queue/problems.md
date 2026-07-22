@@ -20,7 +20,7 @@ Build a `Stack class` using a **Python list** with these four operations:
 4. `is_empty()` returns True if stack is empty, False if not.
 
 Example:
-```py
+```pyDay 
 pythons = Stack()
 s.push(1)
 s.push(2)
@@ -83,3 +83,121 @@ class Stack:
              
 obj = Stack()
 ```
+---
+# Problem 2 - Day 31
+
+> Topic: Stack\
+> Name: Valid Parentheses\
+> Level: Easy\
+> Source: Claude\
+> Date: 2026-07-22\
+> Code file: [Click Here](problem2_solution.py)
+
+### Code description
+> Technique: Stack\
+> Time complexity: O(n)\
+> Space complexity: O(n)\
+
+## The Problem
+You are given a string containing only these characters: `(, ), {, }, [, ]`.
+
+Your task is to check whether the string is valid or not and print True or False.
+
+A string is valid if:
+
+1. Every opening bracket has a corresponding closing bracket.
+2. Brackets are closed in the correct order.
+Key Words Explained
+
+Valid order means if you open a bracket, the very next closing bracket must close that specific opening bracket, not some other one.
+
+### Example 1 - Valid Case:
+
+**Input**:
+```py
+text = "{[()]}"
+```
+**Output**:
+```bash
+True
+```
+### Example 2 - Invalid Case:
+
+**Input**:
+```py
+text = "{[(])}"
+```
+**Output**:
+```bash
+False
+```
+> Because ] tries to close ( which is wrong.
+
+### Example 3 - Where beginners go wrong:
+
+**Input**:
+```py
+text = "{[}"
+```
+**Output**:
+```bash
+False
+```
+> Because [ was never closed properly.
+
+What you need to think about
+
+You have a Stack class already built. Think about what you push and when.
+
+**Ask yourself this**: "When I see an opening bracket I push it. When I see a closing bracket, what do I check against and how does the stack help me verify the correct order?"
+
+# My approach
+
+I will use the base principle of $stack$, **LIFO**.
+1. I'll create 4 key operations of Stack in a class.
+2. Then I'll convert a string into a list of string: `list(str)`
+3. Using for loop, i'll iterate on that list:
+    - If `i == opening bracket`, then push it to stack,
+    - If `i == clsoing bracket`, then check peek of the stack. If it is closing bracket of the same `i`. Pop the peek
+    - If $stack$ left empty in end, `return True`
+
+## Code
+```py
+class Stack:
+    # 4 key oeration method
+    # match bracket method
+    def match(self, item):
+        char = list(item)
+
+        for i in char:
+            if (i == '(') or (i == '[') or (i == '{'):
+                self.push(i)
+
+            if i == ')':
+                if self.isEmpty() == True:
+                    return False
+                elif self.peek() == '(':
+                    self.pop_stack()
+                else:
+                    return False
+                
+            elif i == ']':
+                if self.isEmpty() == True:
+                    return False
+                elif self.peek() == '[':
+                    self.pop_stack()
+                else:
+                    return False
+                
+            elif i == '}':
+                if self.isEmpty() == True:
+                    return False
+                elif self.peek() == '{':
+                    self.pop_stack()
+                else:
+                    return False
+                
+        if self.isEmpty() == True:    
+            return True
+```
+---
