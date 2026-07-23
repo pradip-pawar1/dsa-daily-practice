@@ -56,9 +56,7 @@ class Stack:
                 else:
                     return False
                 
-        if self.isEmpty() == True:    
-            return True             
-
+        return True if len(self.stack) == 0 else False
 
 o = Stack()
 

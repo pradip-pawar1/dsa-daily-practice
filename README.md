@@ -20,7 +20,7 @@ A systematic journey through Data Structures and Algorithms one problem at a tim
 
 **Total Problems Solved:** 40
 
-**Current Streak:** 1 days 🔥
+**Current Streak:** 2 days 🔥
 
 **Last Updated:** Mid July 2026
 
