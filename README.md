@@ -13,16 +13,16 @@ A systematic journey through Data Structures and Algorithms one problem at a tim
 | Arrays | 🟢10 | 🟡 12 | 🔴 0 | 22 |
 | Strings | 🟢 5 | 🟡 2 | 🔴 0 | 7 |
 | Hashing | 🟢 4 | 🟡 5 | 🔴 0 | 9 |
-| Stacks & Queues | 🟢 2 | 🟡 0 | 🔴 0 | 2 |
+| Stacks & Queues | 🟢 3 | 🟡 0 | 🔴 0 | 3 |
 | Sorting | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
 | Searching | 🟢 0 | 🟡 0 | 🔴 0 | 0 |
-| Total | 🟢21 | 🟡19 | 🔴0 | 40 |
+| Total | 🟢22 | 🟡19 | 🔴0 | 41 |
 
 **Total Problems Solved:** 40
 
 **Current Streak:** 2 days 🔥
 
-**Last Updated:** Mid July 2026
+**Last Updated:** End July 2026
 
 
 ## 🎯 Purpose
@@ -92,23 +92,13 @@ Locic - 2
 ```
 ---
 
-<!-- ## 🛠️ Tools & Resources
+## 🛠️ Tools & Resources
 
 ### Practice Platforms
-- [LeetCode](https://leetcode.com) - Primary problem source
-- [HackerRank](https://hackerrank.com) - Additional practice
+- [Claude AI](https://claude.ai/) - Primary problem source
+- [LeetCode](https://leetcode.com) - Additional practice
 - [GeeksforGeeks](https://geeksforgeeks.org) - Concept learning
---- -->
-
-## 🔗 Related Projects
-
-This DSA practice complements my other learning repositories:
-
-- **[Raw Python Logic Building](https://github.com/pradip-pawar1/Raw-python-Logic_building)** - OOP and project-based learning
-- **[End-to-End Rainfall Prediction](https://github.com/pradip-pawar1/End-to-End-Rainfall-Prediction)** - ML deployment project
-
 ---
-
 
 ## 📬 Connect
 

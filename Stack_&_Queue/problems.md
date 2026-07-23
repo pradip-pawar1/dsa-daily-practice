@@ -201,3 +201,67 @@ class Stack:
             return True
 ```
 ---
+
+# Problem 3 - Day 32
+
+> Topic: Stack\
+> Name: Reverse a String using Stack\
+> Level: Easy\
+> Source: Claude\
+> Date: 2026-07-23\
+> Code file: [Click Here](problem3_solution.py)
+
+### Code description
+> Technique: Stack\
+> Time complexity: O(n)\
+> Space complexity: O(n)
+
+## The Problem
+You are given a string. Your task is to **reverse it using a Stack**. You cannot use slicing, built in reverse functions, or any other technique. Only stack operations.
+
+### Example 1 - Valid Case:
+
+**Input**:
+```py
+text = "hello"
+```
+**Output**:
+```bash
+"olleh"
+```
+### Example 2 - Where beginners go wrong:
+
+**Input**:
+```py
+text = "madam"
+```
+**Output**:
+```bash
+"madam"
+```
+This is a palindrome so input and output look the same. Do not let that confuse you. Your logic should still push and pop correctly.
+
+# My approach
+Stack's **LIFO** operation naturally makes a string reverse.
+
+1. I'll convert a string into a list of character
+2. The last element will be the first who get out, so I willl add that element in new string
+3. After completing stact return the new string.
+
+## Code
+```py
+class Stack:
+    # Core operations
+    
+    # reverse the string using stack 
+    def reverse_str(self, string:str) -> str:
+        new_str = ""
+
+        for i in string:
+            self.push(i)
+
+        while self.isEmpty() != True:
+            new_str += self.pop_stack()
+
+        return new_str
+```
