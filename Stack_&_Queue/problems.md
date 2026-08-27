@@ -265,3 +265,60 @@ class Stack:
 
         return new_str
 ```
+---
+
+# Problem 4 - Day 33
+
+> Topic: Stack\
+> Name: Next Greater Element\
+> Level: Medium\
+> Source: Claude\
+> Date: 2026-07-27\
+> Code File: [Click Here](problem4_solution.py)
+
+
+## The Problem
+
+You are given a list of numbers. For each element in the list, **find the next greater element to its right**. If no greater element exists, `print -1` for that element.
+
+## Key Words Explained
+
+Next greater element means the first element to the right of the current element that is strictly greater than it. Not the largest in the whole list, just the first one that is greater as you move right.
+
+### Example 1 - Valid Case:
+
+**Input**:
+```py
+numbers = [4, 5, 2, 10, 8]
+```
+**Output**:
+```bash
+5 10 10 -1 -1
+```
+**Because**:
+
+_4 → next greater is 5\
+5 → next greater is 10\
+2 → next greater is 10\
+10 → no greater element to right → -1\
+8 → no greater element to right → -1_
+
+### Example 2 - Where beginners go wrong:
+
+**Input**:
+```py
+numbers = [3, 2, 1]
+```
+**Output**:
+```bash
+-1 -1 -1
+```
+Because the list is decreasing so nothing has a next greater element.
+
+## What you need to think about
+
+There is a brute force way using two loops which is O(n²). But think about how a stack can help you solve this in O(n).
+
+Ask yourself this:
+
+"If I am walking through the list and I find an element that is greater than something I saw before, how can the stack help me remember what I saw before and resolve it instantly?"
