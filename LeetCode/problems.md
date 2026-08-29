@@ -59,3 +59,33 @@ Explanation: "raceacar" is not a palindrome.
 3. Using two pointer approach compare the string
     - Return `True` if both pointer match properly
     - Return `False` if pointer values fail
+
+---
+
+## The problem - Day 03
+
+> Topic: Sliding Window\
+> Name: Best Time to Buy and Sell Stock\
+> Level: Easy\
+> Source: [LeetCode #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)\
+> Date: 29 Aug 2026
+
+### Problem Statement
+You are given an array `prices` where `prices[i]` is the price of a given stock on the $i^{\text{th}}$ day.
+
+You want to maximize your profit by choosing a **single day** to buy one stock and choosing a **different day in the future** to sell that stock.
+
+_Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return_ `0`.
+
+### Solution
+**Local file**: [Answer](solution3.py)\
+**LeetCode file**: [Details](https://leetcode.com/submissions/detail/2123583769/)
+
+1. Create a variable `min_price = arr[0]` to store minimum buy price
+2. Create a variable `best_profit = 0` to save final biggert profit
+3. Run a `for` loop on **stocks**
+4. Current value `i` is the sell price.
+    - Calculate profit: $profit = buy\ price - see\ price$
+    - Check best profit
+    - Check smallest buy price
+5. retuen `best_profit`
