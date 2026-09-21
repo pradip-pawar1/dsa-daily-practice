@@ -89,3 +89,25 @@ _Return the maximum profit you can achieve from this transaction. If you cannot 
     - Check best profit
     - Check smallest buy price
 5. retuen `best_profit`
+
+## The Problem - Day 04
+
+> Topic: Two Pointers\
+> Name: Squares of a Sorted Array\
+> Level: Easy\
+> Source: [LeetCode #977](https://leetcode.com/problems/squares-of-a-sorted-array/description/)\
+> Date: 21 Sep 2026
+
+### Problem Statement
+
+Given an integer array nums sorted in **non-decreasing** order, return an array of **the squares of each number** sorted in non-decreasing order.
+
+### Solution
+**Local file**: [Answer](solution4.py)\
+**LeetCode file**: [Details](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/)
+
+1. Using two pointer approach, create two pointer both at both ends
+2. Trace index of the loop
+3. Compare both pointer values:
+    - If `left` is bigger, then add that value to last avaliable location of the result array, keeping `right` where it is.
+    - If `right` is bigger then add that value to last avaliable location of an array, keeping `left` where it is.
